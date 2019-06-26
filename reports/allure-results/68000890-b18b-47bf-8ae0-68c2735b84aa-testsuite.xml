@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1561563603775' stop='1561563620012'>
+    <name>test that the button is clickable once the ajax loader completes loading</name>
+    <title>test that the button is clickable once the ajax loader completes loading</title>
+    <test-cases>
+        <test-case start='1561563603775' status='broken' stop='1561563605736'>
+            <name>attempt to click the button asap</name>
+            <title>attempt to click the button asap</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/domenicdonofrio/Documents/webdriverioFramework/tests/ajaxClickTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1561563603779' status='passed' stop='1561563605244'>
+                    <name>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/url</name>
+                    <title>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='76546b04-8685-434b-9c87-f1d9a02e2f01-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='5c21024b-f86d-4bf9-adb3-f580fbcfbe05-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1561563605252' status='passed' stop='1561563605276'>
+                    <name>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/element</name>
+                    <title>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3c1a756f-009b-4a47-99f0-70130f2e1b0f-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='10e2d0df-b932-4b35-8329-c3e8b37fda40-attachment.json' type='application/json' size='581'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1561563605279' status='broken' stop='1561563605735'>
+                    <name>GET /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/screenshot</name>
+                    <title>GET /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d50221f3-f928-4142-ac45-f87e872696bb-attachment.png' type='image/png' size='20251'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters.</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters.
+                    at click("#button155") - at element("#button155") - click.js:12:17</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1561563605736' status='passed' stop='1561563620011'>
+            <name>attempt to click the button after 7 seconds</name>
+            <title>attempt to click the button after 7 seconds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/domenicdonofrio/Documents/webdriverioFramework/tests/ajaxClickTest.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1561563605737' status='passed' stop='1561563605851'>
+                    <name>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/url</name>
+                    <title>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b0b428a5-eb61-435d-b30c-79205b6e7e86-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='ef22cdeb-8bf3-4051-a59b-1542cbeb85ae-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1561563612863' status='passed' stop='1561563612896'>
+                    <name>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/element</name>
+                    <title>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0ba26ef7-6f31-4d04-bf25-121b8f07800f-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='aa1286eb-215c-4274-a3a6-1600452783d7-attachment.json' type='application/json' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1561563612896' status='passed' stop='1561563613001'>
+                    <name>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/element/0.089141468320034-1/click</name>
+                    <title>POST /wd/hub/session/8e252fcf2dfc93d8cbf37a5f7c68b63a/element/0.089141468320034-1/click</title>
+                    <attachments>
+                        <attachment title='Response' source='f19666fb-5d36-40b5-8eb0-3f6f21554f7e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
