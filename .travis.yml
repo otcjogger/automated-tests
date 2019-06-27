@@ -1,3 +1,4 @@
+sudeo: required
 language: node_js
 
 node_js:
@@ -5,3 +6,6 @@ node_js:
  
 addons:
   chrome: stable
+ 
+script:
+  - xvfb-run
