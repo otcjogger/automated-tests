@@ -1,18 +1,22 @@
-# Onboarding test plan
+# ModelPage test plan
 
-## Onboarding flow
+## Hero Image
 
-### Sign up form page
+### Title
 Verify:
 - [ ] Email address should be empty.
 - [ ] Password must be 6 characters min.
 - [ ] User receives Scrimmage welcome email.
 
-### Authorize with Slack page
+![](assets/heroModel_Page.png?raw=true)
+
+### View Photos button
 Verify:
 - [ ] Able to successfully authorize with Slack.
 - [ ] Denying authorization takes you to the Unable to auth page.
 - [ ] Unable to auth page buttons work as expected.
+
+![](assets/heroViewPhotosModel_Page.gif?raw=true)
 
 ### Invite users page
 Verify:
