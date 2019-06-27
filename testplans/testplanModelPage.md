@@ -8,7 +8,7 @@ Verify:
 - [ ] Password must be 6 characters min.
 - [ ] User receives Scrimmage welcome email.
 
-![](assets/heroModel_Page.png?raw=true)
+![](assets/testplanModelPage-e151ddac.png)
 
 ### View Photos button
 Verify:
@@ -16,7 +16,7 @@ Verify:
 - [ ] Denying authorization takes you to the Unable to auth page.
 - [ ] Unable to auth page buttons work as expected.
 
-![](assets/heroViewPhotosModel_Page.gif?raw=true)
+![](assets/testplanModelPage-588e2d22.gif)
 
 ### Credits
 Verify:
