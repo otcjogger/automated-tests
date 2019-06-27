@@ -18,7 +18,7 @@ Verify:
 
 ![](assets/heroViewPhotosModel_Page.gif?raw=true)
 
-### Invite users page
+### Credits
 Verify:
 - [ ] Team members from your organization should show up as expected.
 - [ ] Your Slack user should not show up in this list.
