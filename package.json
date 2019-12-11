@@ -26,7 +26,7 @@
     "npx": "^10.2.0",
     "selenium-standalone": "^6.16.0",
     "wdio-chromedriver-service": "^5.0.2",
-    "webdriverio": "^5.10.9"
+    "webdriverio": "^5.16.15"
   },
   "dependencies": {}
 }
